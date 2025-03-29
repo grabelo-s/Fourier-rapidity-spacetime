@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/fft.hpp
+complex
+-
+vector
+-
+cmath
+-
+
+/home/rabelo-soares/MEGA/Unicamp_doutorado/Paper_masters/Numerical_Fourier_Transform/Interpolations/update_Linear_gsl_new/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+cmath
+-
+complex
+-
+fft.hpp
+/home/rabelo-soares/MEGA/Unicamp_doutorado/Paper_masters/Numerical_Fourier_Transform/Interpolations/update_Linear_gsl_new/fft.hpp
+gsl/gsl_integration.h
+-
+
